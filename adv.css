@@ -1,0 +1,114 @@
+body{
+     background:url("https://images.alphacoders.com/464/464231.jpg");
+     background-size: cover;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+ul a{
+    display: inline-block;
+    padding-inline: 50px;
+    vertical-align:text-bottom;
+}
+ul a:hover{
+    color:aqua;
+    font-size: 20px;
+}
+header{ 
+    background-image: linear-gradient(to right, rgb(212, 33, 33),rgb(228, 228, 66));
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,cursive;
+    font-size: large;
+    height: 200px;
+}
+ul{
+    display: inline-block;   
+    padding-inline: 50px;
+    vertical-align:text-bottom;
+
+}
+#about{
+    text-align: left;
+    background-image: url("bgg.jpg");
+    color:crimson(187, 226, 13);
+    font-size:x-large;
+    padding: 3%;
+    text-decoration: none;
+    
+}
+
+#about a{
+    text-decoration: none;
+    color:rgb(27, 92, 177);
+}
+.grid img{
+ border-radius: 10%;
+ margin-left: 50px;
+ margin-top: 60px;
+}
+.grid1{
+    display: grid;
+    display: flex;
+
+    
+}
+.grid1 h1{
+    text-align: right;
+}
+.grid{
+    
+    display: grid;
+    display: flex;
+    
+}
+#about h1{
+    text-align: center;
+    color:yellow;
+    font-size: xx-large;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+}
+#about pre{
+    color:blanchedalmond;
+}
+#products img {
+    display: block;
+    display: flex;
+  border-radius: 50%;
+  padding-left: 900px;
+}
+  #products  pre
+{
+    color:blanchedalmond;
+}
+#contact a{
+    text-decoration: none;
+    color: aquamarine;
+}
+#contact form{
+
+    border: 20px;
+
+    display: block;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+    border: 1px solid rgb(184, 61, 61);    
+    background-color: yellow; 
+    border: 5px solid transparent ;
+    background-image: linear-gradient(to left, rgb(192, 101, 101),rgb(228, 228, 66));
+    padding: 5px;
+    border-image: url("https://images.vexels.com/media/users/3/115539/raw/47d5ae03fb7ce7ed71110e5213d8cdcd-simple-and-practical-border-vector-series-2-50p.png") 30 round;
+
+
+}
+#contact button{
+    background-color: rgb(196, 133, 92);
+}
+   
